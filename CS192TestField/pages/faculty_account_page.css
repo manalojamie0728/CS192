@@ -1,0 +1,9 @@
+#changepass label{
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+#changepass input {
+  display: inline-block;
+}

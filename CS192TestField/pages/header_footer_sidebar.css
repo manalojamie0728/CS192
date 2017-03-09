@@ -1,0 +1,76 @@
+/*body*/
+body {
+	/*font-family: 'Raleway', sans-serif;*/
+}
+
+.main.container{
+	height: 100%;
+}
+
+.pusher {
+	padding-top: 80px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	width: 85%;
+	min-height: 100%;
+}
+
+/*header footer*/
+.ui.menu .item img.logo {
+	margin-right: 1.5em;
+}
+
+.ui.footer.segment {
+	margin: 5em 0em 0em;
+	padding: 2em 0em;
+}
+
+/*sidebar*/
+..ui.menu {
+	border: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+.ui.left.menu .dropdown.item:hover, 
+.ui.left.menu .link.item:hover, 
+.ui.left.menu a.item:hover, 
+.ui.left.link.menu .item:hover,
+.ui.left.menu .active.item:hover,  
+.ui.vertical.menu .active.item {
+	background-color: #2185D0 !important;
+	color: #FFFFFF !important;
+}
+
+/*menu item icon color*/
+.ui.left.menu a.item:hover i,
+.ui.left.menu a.active.item i {
+	color: #FFFFFF !important;
+}
+
+
+.ui.left.visible.sidebar {
+	padding-top: 68px !important;
+	/*width: 25% !important;*/
+	width: 330px !important;
+	padding: 1rem;
+	background-color:  #f9f9f7;
+	z-index: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+.ui.bottom.visible.sidebar, .ui.left.visible.sidebar, .ui.right.visible.sidebar, .ui.top.visible.sidebar {
+    box-shadow: 0 0 20px rgba(34,36,38,.15);
+}
+
+.ui.tiny.image {
+	width: 60px !important;
+}
+
+.ui.header {
+	margin-top: 0 !important;
+}
+
+#profilesegment {
+	height:90px;
+}
